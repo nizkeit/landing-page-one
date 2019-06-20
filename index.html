@@ -14,7 +14,7 @@
   <!-- header section -->
   <header class="header">
     
-    <nav class="main-nav">
+    <nav class="main-nav ml-20">
       <ul class="nav-ul">
         <li class="nav-li"><a href="#">Home</a></li>
         <li class="nav-li"><a href="#">About</a></li>
@@ -28,18 +28,19 @@
        <a href="#" alt="Creative Designing"> <img src="./img/logo.png" alt="logo"></a>
       </div>
       <h1 class="hero-title">Creative Designing</h1>
-      <hr class="hero-line">
+      <div class="hero-line mt-40"></div>
       <h2 class="hero-subtitle">Simplicity Becomes Elegance</h2>
-      <a href="#" class="hero-btn">View More</a>
+      <button class="hero-btn">View More</button>
       <a href="#" class="hero-icon"></a>
     </div>
   </header>
 
-  <div class="hero-container">
+
   <!-- content section 1-->
-  <section class="hero-about">
-    <h3 class="hero-title-sec mt-90">About</h3>
-    <hr class="hero-line">
+  <section class="hero-about ptb-90">
+      <div class="hero-container">
+    <h3 class="hero-title-sec">About</h3>
+    <div class="hero-line"></div>
     <p class="hero-desc-sec">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
       Lorem Ipsum has been the industry's
        standard dummy text ever since the 1500s.
@@ -56,26 +57,26 @@
     <div class="hero-column">
         <div class="hero-col-circle">
           <img src="./img/icon-video-player.png" alt="User Interface Design">
-          <p class="hero-col-uptext">11 <span class="hero-col-uptext-sec">projects</span></p>
-          <p class="hero-col-title">User Interface Design</p>
+          <div class="hero-col-uptext" data-value="11"><span class="hero-col-uptext-sec">projects</span></div>
         </div>
+        <p class="hero-col-title">User Interface Design</p>
       </div> 
       <div class="hero-column">
           <div class="hero-col-circle">
             <img src="./img/icon-photo-camera.png" alt="Media Covarage">
-            <p class="hero-col-uptext">4 <span class="hero-col-uptext-sec">events</span></p>
-            <p class="hero-col-title">Media Covarage</p>
+            <div class="hero-col-uptext" data-value="4"><span class="hero-col-uptext-sec">events</span></div>
           </div>
+          <p class="hero-col-title">Media Covarage</p>
         </div>
       </div>
+    </div>
   </section>
-</div>
-  <!-- content section 2-->
-  <section class="hero-portfolio">
-    <div class="hero-container">
-      <h3 class="hero-title-sec pt-50">Portfolio</h3>
-      <hr class="hero-line">
 
+  <!-- content section 2 -->
+  <section class="hero-portfolio pb-30">
+    <div class="hero-container">
+      <h3 class="hero-title-sec">Portfolio</h3>
+      <div class="hero-line"></div>
       <div class="hero-portfolio-wrapper mt-50">
           <div class="hero-case"> <a href="#"><img src="./img/case-1.png" alt=""></a></div>
           <div class="hero-case"> <a href="#"><img src="./img/case-2.png" alt=""></a></div>
@@ -85,10 +86,72 @@
           <div class="hero-case"> <a href="#"><img src="./img/case-6.png" alt=""></a></div>
           <div class="hero-case"> <a href="#"><img src="./img/case-7.png" alt=""></a></div>
       </div>
-
-      <div class="hero-btn-wrapper"><a href="#" class="hero-btn mt-0">View More</a></div>
+      <button class="hero-btn mt-50">View More</button>
     </div>
   </section>
 
+   <!-- partners section 3 -->
+   <section class="hero-partners">
+     <div class="hero-wrap">
+       <h3 class="hero-subtitle fs-30">Thanks For Partners</h3>
+       <div class="hero-row mrl-70 mt-50 mb-70">
+        <div class="hero-back-icon-wrap"><a class="hero-back-icon-left" href=""></a></div> 
+         <div class="hero-partner"><img src="./img/logo-1.png" alt=""></div>
+         <div class="hero-partner"><img src="./img/logo-2.png" alt=""></div>
+         <div class="hero-partner"><img src="./img/logo-3.png" alt=""></div>
+         <div class="hero-partner"><img src="./img/logo-4.png" alt=""></div>
+         <div class="hero-partner"><img src="./img/logo-5.png" alt=""></div>
+        <div class="hero-back-icon-wrap"><a class="hero-back-icon-right" href=""></a></div> 
+       </div>
+     </div>
+   </section>
+
+   <!-- contact section 4 -->
+   <section class="hero-contact pb-100">
+       <h3 class="hero-title-sec">Contact</h3>
+       <div class="hero-line"></div>
+
+       <div class="hero-contact-wrap mt-90">
+         <form class="hero-contact-form" action="#">
+           <label>
+             <input class="hero-input-text" type="text" placeholder="Your Name...">
+           </label>
+           <label>
+             <input class="hero-input-email" type="email" placeholder="Your E-Mail...">
+           </label>
+           <div>
+             <textarea class="hero-textarea" name="" id="" cols="42" rows="5" placeholder="Your Message..."></textarea>
+           </div>
+           <label class="submit-label mt-15">
+            <button class="hero-submit-btn" type="submit">Send</button>
+           </label>
+           
+         </form>
+        
+     
+       <aside class="hero-social">
+         <div class="hero-row">
+           <div class="hero-social-left">
+             <div>1</div>
+             <div>2</div>
+             <div>3</div>
+             <div>4</div>
+           </div>
+            <div class="hero-social-right">
+                <div>Behance</div>
+                <div>Instagram</div>
+                <div>Facebook</div>
+                <div>Social</div>
+           </div>
+
+        </div>
+       </aside>
+      </div>
+   </section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry</div>
+</footer>
 </body>
 </html>
