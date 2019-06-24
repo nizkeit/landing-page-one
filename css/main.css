@@ -419,10 +419,10 @@ textarea::placeholder {  color: #bcbfc0;}
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
-  height: 45px;
-  line-height: 1.5;
+  height: 45px; 
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   display: flex;
   color: #cac9c9;
 }
