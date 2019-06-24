@@ -311,7 +311,7 @@ input.hero-input-text {
   box-sizing: border-box;
   border: 1px solid #2980b9;
   border-radius: 5px;
-  padding: 15px 269px 15px 30px;
+  padding: 15px 30px;
   font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 25px;
@@ -320,7 +320,8 @@ input.hero-input-email  {
   box-sizing: border-box;  
   border: 1px solid #2980b9;
   border-radius:5px;
-  padding: 15px 269px 15px 30px;
+  padding: 15px 30px;
+  margin: 15px 0;
   font-family: 'Lato', sans-serif;
   font-style: italic;
   font-size: 25px;
