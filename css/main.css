@@ -304,9 +304,6 @@ ul {
   top: 0;
   left: 5%;
 }
-.hero-contact-form > label {
-  padding-bottom: 15px;
-}
 input.hero-input-text {
   box-sizing: border-box;
   border: 1px solid #2980b9;
@@ -343,20 +340,17 @@ input::placeholder {color: #bcbfc0;}
 textarea::placeholder {  color: #bcbfc0;}
 -webkit-textarea::placeholder {  color: #bcbfc0;}
 
-.submit-label {
-  display: flex;
-  align-self: center;
-}
 .hero-submit-btn {
   background: #25d8d8;
   width: 150px;
   display: flex;
   height: 60px;
+  margin-top: 25px;
   justify-content: center;
   text-transform: uppercase;
-  flex-direction: column;
   border-radius: 5px;
   align-items: center;
+  align-self: center;
   border: 0;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
