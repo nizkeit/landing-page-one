@@ -75,7 +75,7 @@ ul {
   width: 100%;
   height: 100vh;
   display: flex;
-  align-content: center;
+  flex-direction: column;
   background: url(../img/header-bg.png) no-repeat center center;
   background-size: cover;
 }
@@ -83,6 +83,8 @@ ul {
   display: flex;
   width: 100%;
   flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 .hero-logo {
   margin-top: 30px;
